@@ -1,5 +1,6 @@
 
 import './App.css';
+import App2 from './signup.jsx';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 				<li><a href="#">services</a></li>
 				<li><a href="#">Contact us</a></li>
 				<li><a href="#" class="login">login</a></li>
-				<li><a href="" class="signup">signup</a></li>
+				<li><a href="./signup.html" class="signup">signup</a></li>
 
 			</ul>
 		</nav>
