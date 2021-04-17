@@ -6,7 +6,7 @@ import Error from './Error.jsx';
 import Menu from './Menu.jsx';
 import Login from './login.jsx';
 import Signup from './signup.jsx';
-import Home from './App3.jsx';
+// import Home from './App3.jsx';
 
 const App4 =() => {
     return(
@@ -17,9 +17,9 @@ const App4 =() => {
                <Route exact path="/contact" component={Contact} />
                <Route exact path="/login" component={Login} />
                <Route exact path="/signup" component={Signup} />
-               <Route exact path="/home" component={Home} />
+               {/* <Route exact path="/home" component={Home} /> */}
                {/* <Route exact path="/services" component={} /> */}
-               <Route  component={Error} />
+               {/* <Route  component={Error} /> */}
 
            </switch>
         </>
