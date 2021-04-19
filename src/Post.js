@@ -1,64 +1,41 @@
 import React, { Component } from 'react';
+import './post.css';
 
 class Post extends Component {
     render() {
         return (
-              <div className="container" style={{height:"100vh",width:"100%",margin:0,marginRight:0}}>
-                 
-                <form>
-                <label className="text-muted" style={{}}>Create Your Post</label>
-            
-            <div className="form-group">
-                <label className="text-muted">Post Title</label>
-                <input
-                    
-                    type="text"
-                    className="form-control"
-                   
-                />
-            </div>
-
-            <div className="form-group">
-                <label className="text-muted">Description</label>
-                <textarea
-                   
-                    type="text"
-                    className="form-control"
-                    
-                />
+           <>
+            <div className="divcenter">
+            <h2 className="ph">Create Your Post</h2>
+            <form className="form">
+                <label className="formlevele"> Post Title</label>
+                <input type="text" class="form-control" name="title" /><br/>
+                <label className="formlevele"> Post Description</label>
+                <input type="text" class="form-control" name="title" /><br/>
                 
 
-            </div>
-
-           
-        <select name="Tag" id="cars"  style={{display: "block",border:"none"}}>
-        <option value="volvo">Select Tag..</option>
-    <option value="volvo">Education</option>
-    <option value="saab">Entertainment</option>
-    <option value="opel">Extra-Curriculum Activity</option>
-  
-  </select>
-
-
-            {/* <div className="form-group">
-               
-                <input
-                    
-                    type="file"
-                    accept="image/*"
-                    
-                />
-                 <label > Post Image</label>
-                </div>
- */}
-            <button
-                
-                className="btn btn-raised btn-primary"
-            >
+                <label className="formlevele"> Post </label>
+                <textarea style={{height:'100px'}} type="text" className="tarea"/><br/>
+                <br/>
+    
+                <select name="Tag" id="cars" className="select" >
+                    <option value="">Select Tag..</option>
+                <option value="Education">Education</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Extra-Curriculum Activity">Extra-Curriculum Activity</option>
+              
+              </select><br/><br/>
+    
+              <button className="bcreate">
                 Create Post
             </button>
-        </form>
-            </div>
+    
+            </form>
+    
+        </div>
+
+
+           </>
         );
     }
 }

@@ -21,7 +21,7 @@
 	transform:translate(-50%, -50%);
 	background-image: linear-gradient(27deg,#013A6D 50%,#004E95 50%)
 }
-h2{
+.signHeadig{
 	text-align:center;
 	color:white;
 	text-transform: uppercase;

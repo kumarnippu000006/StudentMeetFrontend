@@ -6,6 +6,7 @@ import Error from './Error.jsx';
 import Menu from './Menu.jsx';
 import Login from './login.jsx';
 import Signup from './signup.jsx';
+import Post from './Post';
 // import Home from './App3.jsx';
 
 const App4 =() => {
@@ -13,6 +14,7 @@ const App4 =() => {
         <>
         <Menu></Menu>
            <switch>
+           <Route exact path="/home" component={Post} />
                <Route exact path="/about" component={About} />
                <Route exact path="/contact" component={Contact} />
                <Route exact path="/login" component={Login} />

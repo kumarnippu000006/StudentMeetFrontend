@@ -1,5 +1,5 @@
 import React from 'react';
-import './App2.css';
+import './signup.css';
 function App2() {
 
 
@@ -112,7 +112,7 @@ function App2() {
 	
     <div class="nkimg">
 		<div class="centerdiv">
-			<h2>Signup</h2>
+			<h2 className="signHeadig">Signup</h2>
 			<form>
 			<div>
 					<input id="name" type="text" class="inputbox" placeholder="Name"></input>

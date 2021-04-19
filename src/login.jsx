@@ -1,5 +1,5 @@
 import React from 'react';
-import './App1.css';
+import './login.css';
 function App1() {
 
 
@@ -45,7 +45,7 @@ function App1() {
 	  
 	  
 		<div class="centerdiv1">
-			<h2>User login</h2>
+			<h2 className="logHeading">User login</h2>
 			<form>
 				<div>
 					<input type="text" class="inputbox" id="name" placeholder="Username"></input>
