@@ -6,7 +6,6 @@ import {BrowserRouter} from 'react-router-dom';
 import App from './App.jsx';
 import App2 from './signup.jsx';
 import App4 from './App4.jsx';
-import Post from './Post'
 import Error from './Error';
 import Profile from './user/Profile'
  

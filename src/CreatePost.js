@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './post.css';
+import './createpost.css';
 
-class Post extends Component {
+class CreatePost extends Component {
     render() {
         return (
            <>
@@ -40,4 +40,4 @@ class Post extends Component {
     }
 }
 
-export default Post;
+export default CreatePost;

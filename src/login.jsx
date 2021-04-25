@@ -41,7 +41,7 @@ function App1() {
   return (
     <div className="App1">
 	
-      <div class="nkimg">
+      <div class="nkimg1">
 	  
 	  
 		<div class="centerdiv1">

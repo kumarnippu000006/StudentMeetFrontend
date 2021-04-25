@@ -22,6 +22,7 @@ const Contact =()=>{
 		<div class="nk2">
 			<textarea rows="4" cols="50" class="mes" placeholder="Your Message"></textarea>
 		</div>
+		<br/>
 
 		  <div>
 					<button type="submit" >SEND</button>

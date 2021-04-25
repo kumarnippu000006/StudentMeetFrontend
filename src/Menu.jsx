@@ -17,6 +17,7 @@ const Menu =()=> {
 				<li><a href="/contact">ContactUs</a></li>
 				<li><a href="/login" class="login">Login</a></li>
 				<li><a href="/signup" class="signup">Signup</a></li>
+        <li><a href="/post" class="signup">Create Post</a></li>
 
 			</ul>
 		</nav>
