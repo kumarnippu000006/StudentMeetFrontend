@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ShowPost extends Component {
+const ShowPost=()=> {
 
-    constructor() {
-        super()
-        this.state = {
-            posts:["First Post Title title","Second Post title","Third Post title","Fourth Post title","Fifth Post title"
+   
+        
+        
+         const   posts=["First Post Title title","Second Post title","Third Post title","Fourth Post title","Fifth Post title"
             ,"Sixth Post title","Seventh Post title","Eigth Post title","Ninth Post title","Tenth Post title","Eleventh Post title","Twelveth Post title","Thirtheen Post title"
             ,"Fourteen Post title","Fivteen Post title","Sixteen Post title","Seventeen Post title"
-        ]
+        ];
   
-        }
-    }
+        
+    
 
 /*      isAuthenticated = () =>{
             if(typeof window == "undefined"){
@@ -66,8 +66,8 @@ class ShowPost extends Component {
  */
 
     
-    render() {
-        const posts=this.state.posts;
+    
+       
         return (
             <div className="row">
                      {posts.map((post,i) =>(
@@ -87,7 +87,7 @@ class ShowPost extends Component {
                      ))}
                  </div>
         );
-    }
+    
 }
 
 export default ShowPost;
