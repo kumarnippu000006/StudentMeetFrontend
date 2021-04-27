@@ -8,30 +8,30 @@ import manoImg from './mano.jpg';
 import sonuImg from './sonu.jpg';
 
 
-class About extends Component {
+const About=()=>  {
 
-    constructor() {
-        super()
-        this.state = {
-            names:[{name:"Akhilesh Swaroop Gupta",email:"akhileshkiit2016@gmail.com",img:akImg,contact:""},
+  
+        
+        
+           const names=[{name:"Akhilesh Swaroop Gupta",email:"akhileshkiit2016@gmail.com",img:akImg,contact:""},
             {name:"Sunil Kumar Sharma",email:"sunilrk.one@gmail.com",img:otImg,contact:""},
             {name:"Nippu Kumar",email:"kumarnippu000006@gmail.com",img:myImg,contact:"7009621792"},
             {name:"Vikash kumar Yadav",email:"vikashyadav9120465730@gmail.com",img:otImg,contact:""},
             {name:"Manoj Kumar Chaudhary",email:"manojchaudhary52623@gmail.com",img:manoImg,contact:""}
         ]
         
-        };
+    
        
-    }
+    
    
 
 
 
 
 
-    render() {
+   
 
-        const names=this.state.names;
+        
         return (
             <div className="row">
                      {names.map((oName,i) =>(
@@ -52,7 +52,7 @@ class About extends Component {
                      ))}
                  </div>
         );
-    }
+    
 };
 
 export default About;
