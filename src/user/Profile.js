@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './profile.css';
 import myImg from './images/a2.png';
 
-class Profile extends Component {
-    render() {
+const Profile =()=> {
+   
         return (
         <>
             <div className="first">
@@ -32,6 +32,6 @@ class Profile extends Component {
             </>
         );
     }
-}
+
 
 export default Profile;
