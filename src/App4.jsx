@@ -8,14 +8,17 @@ import Login from './login.jsx';
 import Signup from './signup.jsx';
 import ShowPost from './ShowPost';
 import CreatePost from './CreatePost';
-// import Home from './App3.jsx';
+import Home from './home/Home';
+import GoTo from './home/GoTo';
+
 
 const App4 =() => {
     return(
         <>
         <Menu></Menu>
+        <GoTo></GoTo>
            <switch>
-           <Route exact path="/home" component={ShowPost} />
+           <Route exact path="/home" component={Home} />
                <Route exact path="/about" component={About} />
                <Route exact path="/contact" component={Contact} />
                <Route exact path="/login" component={Login} />
