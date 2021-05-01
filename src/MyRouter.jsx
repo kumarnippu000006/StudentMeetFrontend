@@ -12,7 +12,7 @@ import Home from './home/Home';
 import GoTo from './home/GoTo';
 
 
-const App4 =() => {
+const MyRouter =() => {
     return(
         <>
         <Menu></Menu>
@@ -32,4 +32,4 @@ const App4 =() => {
         </>
     )
 };
-export default App4;
+export default MyRouter;

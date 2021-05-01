@@ -110,36 +110,36 @@ function App2() {
   return (
     <div className="App1">
 	
-    <div class="nkimg">
-		<div class="centerdiv">
+    <div class="sm-signup-background">
+		<div class="sm-signup-center">
 			<h2 className="signHeadig">Signup</h2>
 			<form>
 			<div>
-					<input id="name" type="text" class="inputbox" placeholder="Name"></input>
+					<input id="name" type="text" class="signup-inputbox" placeholder="Name"></input>
 				</div>
 				<br />
 				<div>
-					<input id="email" type="text" class="inputbox" placeholder="Email-Id"></input>
+					<input id="email" type="text" class="signup-inputbox" placeholder="Email-Id"></input>
 				</div>
 				<br />
 				<div>
-					<input id="pass" type="text" class="inputbox" placeholder="Password"></input>
+					<input id="pass" type="text" class="signup-inputbox" placeholder="Password"></input>
 				</div>
 				<br />
 				<div>
-					<input id="cpass" type="text" class="inputbox" placeholder=" Confirm Password"></input>
+					<input id="cpass" type="text" class="signup-inputbox" placeholder=" Confirm Password"></input>
 				</div>
 				<br />
 				<div>
-					<input id="cname" type="text" class="inputbox" placeholder="College Name"></input>
+					<input id="cname" type="text" class="signup-inputbox" placeholder="College Name"></input>
 				</div>
 				<br />
 				<div>
-					<input id="bname" type="text" class="inputbox" placeholder="Branch Name"></input>
+					<input id="bname" type="text" class="signup-inputbox" placeholder="Branch Name"></input>
 				</div>
 				<br />
 				<div>
-					<input id="cnub" type="text" class="inputbox" placeholder="Contact Number"></input>
+					<input id="cnub" type="text" class="signup-inputbox" placeholder="Contact Number"></input>
 				</div>
 				
 				<br />

@@ -39,29 +39,29 @@ function App1() {
 
 
   return (
-    <div className="App1">
+    <div className="sm-login">
 	
-      <div class="nkimg1">
+      <div className="sm-login-background">
 	  
 	  
-		<div class="centerdiv1">
+		<div className="sm-login-center">
 			<h2 className="logHeading">User login</h2>
 			<form>
 				<div>
-					<input type="text" class="inputbox" id="name" placeholder="Username"></input>
+					<input type="text" className="login-inputbox" id="name" placeholder="Username"></input>
 				</div>
 				<br />
 				<div>
-					<input type="text" class="inputbox" id="pass" placeholder="Password"></input>
+					<input type="text" className="login-inputbox" id="pass" placeholder="Password"></input>
 				</div>
 				<br />
 				<div>
-					<button type="submit" onClick={check} >Login</button>
+					<button className="login-button" type="submit" onClick={check} >Login</button>
 				</div>
 			</form>
       <br />
 			
-			<div class="forgot-section">
+			<div className="forgot-section">
 				<h4>Forgot Password?</h4>
 			</div>
 			
